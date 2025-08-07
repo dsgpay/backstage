@@ -40,7 +40,7 @@ argocd:
         values: ['control-plane-bootstrap', 'control-plane']
 
 aws-load-balancer-controller:
-  enabled: true
+  enabled: false
   # enableAckPodIdentity: true
   namespace: kube-system
   defaultVersion: "1.13.2"
@@ -83,7 +83,7 @@ ingress-nginx:
         values: ['control-plane']
 
 external-dns:
-  enabled: true
+  enabled: false
   releaseName: external-dns
   namespace: external-dns
   chartName: external-dns

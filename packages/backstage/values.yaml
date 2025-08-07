@@ -95,6 +95,10 @@ backstage:
             clientSecret: ${BACKSTAGE_CLIENT_SECRET}
             additionalScopes: 'openid profile email groups'
             prompt: auto
+        github:
+          development:
+            clientId: Iv23lij0BWqh0XX4XxVW
+            clientSecret: 3101a1804382855ff26c7d069be6673b1f40cf30
     scaffolder:
     catalog:
       import:
