@@ -13,7 +13,7 @@ cluster_name: "cnoe-ref-impl"
 # !!! Note: This is a string value as it is passed on to the Argo CD cluster secret as label
 auto_mode: "true"
 # AWS Region of the EKS cluster and cnoe-reference-implementation-aws config secret
-region: "us-west-2"
+region: "ap-southeast-1"
 
 # Base Domain name used for exposing services. It should be a subdomain or main domain of the Route53 hosted zone.
 domain: <REPLACE_ME_example.com>
